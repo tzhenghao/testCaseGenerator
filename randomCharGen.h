@@ -18,16 +18,12 @@ class randomCharGen {
 	public:
 	
 		randomCharGen() : wordLength(0) {};
-
-
+		
 		vector <char> 	
-
-
 
 	private:
 	
 		int wordLength;
 	
 		int wordRange;				
-
 };
