@@ -28,6 +28,6 @@ class randomCharGen {
 	
 		int wordLength;
 	
-				
+		int wordRange;				
 
 };

@@ -21,6 +21,8 @@ class randomNumGen {
 
 	private:
 	
-
+		int numLength;
+		
+		int numRange;
 
 };
