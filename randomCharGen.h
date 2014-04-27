@@ -8,19 +8,26 @@
 #define RANDOMCHARGEN_H
 
 #include <vector>
+#include <cstring>
+
 using namespace std;
 
 class randomCharGen {
 
 	
 	public:
+	
+		randomCharGen() : wordLength(0) {};
 
 
+		vector <char> 	
 
 
 
 	private:
 	
-
+		int wordLength;
+	
+				
 
 };
