@@ -19,3 +19,7 @@ Program Options
 -h, --help
 Prints out a helpful description about the program and exits 0.
 
+Support
+------
+If you have any questions/concerns, feel free to contact me. My email address is 
+tanzhao@umich.edu.
