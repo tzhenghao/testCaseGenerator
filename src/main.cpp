@@ -13,7 +13,7 @@ void printHelp();
 void printOutput();
 
 int main(int argc, char *argv[]) {
-	
+
 	// To speed up IO stream.
 	// ios_base::sync_with_stdio(false);
 	
@@ -28,15 +28,12 @@ int main(int argc, char *argv[]) {
 	};
 
 	// Handle all the options.
-	while ((opt = getopt_long(argc, argv, "w:h", longOpts, &index)) != -1)
-	{
+	while ((opt = getopt_long(argc, argv, "w:h", longOpts, &index)) != -1) {
 		switch(opt) {
 
 			case 'w':	
 						type = argv[optind-1]; 
 						break;
-
-
 
 			case 'c':
 						type = argv[optind-1]; 
@@ -45,13 +42,12 @@ int main(int argc, char *argv[]) {
 			case 'h':
 						printHelp();
 
-
 			case '?':   cerr << "Invalid option input. ";
 						cerr << "Please try again!" << endl;
 						exit(1);
 		}
-	}	
-	
+	}
+
 	return 0;
 }
 
