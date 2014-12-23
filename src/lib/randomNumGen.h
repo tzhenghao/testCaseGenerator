@@ -1,4 +1,5 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
 // Date: April 26, 2014
 
 // This .h file will implement the random number generator.
@@ -10,19 +11,6 @@
 #include <vector>
 using namespace std;
 
-class randomNumGen {
+int numLength, numRange;
 
-	
-	public:
-
-
-
-
-
-	private:
-	
-		int numLength;
-		
-		int numRange;
-
-};
+#endif
