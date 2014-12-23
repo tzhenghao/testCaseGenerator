@@ -1,4 +1,5 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
 // Date: April 26, 2014
 
 #include <iostream>
@@ -51,7 +52,6 @@ int main(int argc, char *argv[]) {
 		}
 	}	
 	
-
 	return 0;
 }
 

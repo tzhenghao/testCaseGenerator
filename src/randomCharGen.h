@@ -3,7 +3,6 @@
 
 // This .h file will implement the random character / word generator.
 
-
 #ifndef RANDOMCHARGEN_H
 #define RANDOMCHARGEN_H
 
@@ -14,16 +13,13 @@ using namespace std;
 
 class randomCharGen {
 
-	
 	public:
-	
+
 		randomCharGen() : wordLength(0) {};
-		
-		vector <char> 	
+
+		vector <char>
 
 	private:
-	
-		int wordLength;
-	
-		int wordRange;				
+
+			int wordLength, wordRange;
 };
